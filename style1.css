@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    width: 98.9vw;
+    background-color: #2874f0;
+    height: 9vh;
+    font-family: 'Lato', sans-serif;
+}
+.btn{
+     /* border: 0;
+    line-height: 2.5;
+    padding: 0px 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #2874f0;
+    background-color: white;
+    margin:-15px 50px 0px 0px;
+    align-self:center;
+    box-sizing: border-box; */
+
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 50px;
+    border: 1px solid #dbdbdb;
+    font-size: 16px;
+    letter-spacing: .1px;
+    box-sizing: border-box;
+}
+#textbar{
+    width: 35vw;
+    height: 45px;
+    align-self: center;
+    margin:0px 170px 0px 0px;
+    box-sizing: border-box;
+    padding: 3px 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+  
+}
+
+ul li {
+    flex-direction: row-reverse;
+    margin: 0px 10px 0px 10px;
+    padding: 20px;
+    align-self: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+font-weight: bolder;
+}
+.logo img{
+   
+    width:90px;
+    align-self: center;
+    margin: 0px 0px 0px 210px;
+    
+}
+
+.top_slider {
+
+    background-repeat: no-repeat;
+    margin: 5px 0px 10px 0px;
+    height: 510px;
+    overflow: hidden;
+}
+
+h2 {
+    display: "";
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sports_bar {
+    display: flex;
+}
+.sports {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.furniture_bar {
+    display: flex;
+}
+.furniture {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.electronics_bar {
+    display: flex;
+}
+.electronics {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.clothes_bar {
+    display: flex;
+}
+.clothes {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+
+body {
+    background-color: rgba(255, 255, 255, 0.68);
+}
+
+.end {
+    height: 38vh;
+    width: 98.9vw;
+    background-color: #13243f;
+}
+.footer_container{
+    display: flex;
+    color: #f1f3f6;
+}
+.box1
+{
+    margin:20px 25px 20px 50px;
+}
+.box2
+{
+    margin:20px 35px;
+}
+.box3
+{
+    margin:20px 35px;
+}
+.box4
+{
+    margin:20px 35px;
+}
+
+.box5
+{
+    margin:20px 35px 20px 75px;
+}
+.box6
+{
+    margin:20px 35px;
+}
+.footer_text{
+    color: #696363;
+}
+.lasttext{
+    text-align: center;
+    color: #f1f3f6;
+}
